@@ -13,6 +13,7 @@ class MyPosts extends React.Component {
 
 		let onAddPost = (values) => {
 			this.props.addPost(values.newPostText);
+			values.newPostText = '';
 		}
 		return (
 			<div className="MyPosts">
