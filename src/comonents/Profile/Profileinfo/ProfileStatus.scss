@@ -1,0 +1,9 @@
+.status {
+	.ChangeStatus {
+		color: rgb(148, 63, 63);
+	}
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	}
+}

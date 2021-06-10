@@ -1,0 +1,10 @@
+.header {
+	display: flex;
+	background-color: lightcoral;
+	margin-top: 10px;
+	border-radius: 10px;
+	justify-content: space-between;
+	.login_block {
+		color: black;
+	}
+}

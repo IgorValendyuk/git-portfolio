@@ -1,0 +1,33 @@
+.navbar {
+	.friends_conteiner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.name {
+			img {
+				width: 30px;
+			}
+		}
+	}
+	background-color: lightseagreen;
+	min-width: 170px;
+	width: 15%;
+	margin-right: 10px;
+	border-radius: 10px;
+	ul {
+		list-style-type: none;
+
+		a {
+			&.active {
+				color: blue;
+			}
+			text-decoration: none;
+			&:hover {
+				color: rgb(243, 164, 164);
+			}
+			&:active {
+				color: rgb(230, 137, 30);
+			}
+		}
+	}
+}
