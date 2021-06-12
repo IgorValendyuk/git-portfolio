@@ -5,7 +5,7 @@ import preloader from '../../img/Fidget-spinner.gif';
 let Preloader = (props) => {
 	return (
 		<div>
-			<img src={preloader} />
+			<img alt='loading' src={preloader} />
 		</div>
 	)
 }

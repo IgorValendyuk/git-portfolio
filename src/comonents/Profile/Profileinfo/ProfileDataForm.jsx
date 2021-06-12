@@ -18,11 +18,11 @@ const ProfileDataForm = ({ handleSubmit, profile }) => {
 		<div>
 			<b>About me:</b> <Field placeholder='About me' name={'aboutMe'} component={Textarea} />
 		</div>
-		{/*<div>
+		<div>
 			<b>Contacts:</b> {Object.keys(profile.contacts).map(key => {
-				return <Contact key={key} contactTitle={key} contactValue={profile.contacts[key]} />
+				return <div key={key}>{key}: <Field placeholder={key} name={'contacts.' + key} component={Input} /> </div>
 			})}
-		</div>*/}
+		</div>
 	</form>
 }
 

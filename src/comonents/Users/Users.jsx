@@ -2,7 +2,6 @@ import React from 'react';
 import './Users.scss';
 import photos from '../Profile/Profileinfo/img/avatar.jpg';
 import { NavLink } from 'react-router-dom';
-import Pagination from "react-js-pagination";
 
 
 let Users = (props) => {
@@ -27,7 +26,7 @@ let Users = (props) => {
 					<span>
 						<div>
 							<NavLink to={'/profile/' + u.id}>
-								<img src={u.photos.small != null ? u.photos.small : photos} className='userPhoto' />
+								<img alt='img' src={u.photos.small != null ? u.photos.small : photos} className='userPhoto' />
 							</NavLink>
 
 						</div>

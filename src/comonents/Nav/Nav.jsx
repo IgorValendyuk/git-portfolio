@@ -5,7 +5,7 @@ import Friend from './Friend/Friend'
 
 function Nav(props) {
 
-	let friendElements = props.friendsData.map(friend => <Friend name={friend.name} />)
+	let friendElements = props.friendsData.map(friend => <Friend key={friend.id} name={friend.name} />)
 
 	return (
 		<nav className="navbar">

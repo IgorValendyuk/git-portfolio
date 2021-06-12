@@ -23,7 +23,6 @@ export const usersAPI = {
 		return instance.delete(`follow/${userId}`,)
 	},
 	getProfile(userId) {
-		console.warn('Другой метод')
 		return profileAPI.getProfile(userId);
 	}
 }
