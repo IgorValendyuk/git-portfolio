@@ -2,7 +2,6 @@ import React from 'react';
 import './Profileinfo.scss';
 import Avatar from './img/avatar.jpg';
 import Preloader from '../../common/Preloader/Preloader';
-import ProfileStatus from './ProfileStatus';
 import ProfileStatusWithHooks from './ProfileStatusWithHooks';
 
 
@@ -13,7 +12,7 @@ function Profileinfo(props) {
 	return (
 		<div className="Profileinfo">
 			<div className='avatar'>
-				<img src={props.profile.photos.large} alt="avatar" />
+				<img src={props.profile.photos.large || Avatar} alt="avatar" />
 			</div>
 			<div className="description">
 				<ProfileStatusWithHooks
