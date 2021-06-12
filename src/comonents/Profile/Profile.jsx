@@ -9,6 +9,7 @@ function Profile(props) {
 	return (
 		<div className="Profile">
 			<Profileinfo
+				saveProfile={props.saveProfile}
 				savePhoto={props.savePhoto}
 				isOwner={props.isOwner}
 				profile={props.profile}
