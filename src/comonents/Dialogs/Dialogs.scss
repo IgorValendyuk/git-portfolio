@@ -1,4 +1,11 @@
 .Dialogs-container {
 	width: 100%;
-	display: flex;
+	.Dialogs {
+		display: flex;
+		width: 70%;
+		margin: auto;
+		box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+		margin-top: 15px;
+		padding: 7px;
+	}
 }

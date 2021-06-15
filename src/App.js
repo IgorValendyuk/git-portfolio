@@ -34,7 +34,7 @@ class App extends React.Component {
             <HeaderContainer />
           </div>
           <div className="Content_container" >
-            <Nav friendsData={this.props.friendsData} />
+            <Nav />
 
             <Route path="/dialogs"
               render={() => <DialogsContainer />} />

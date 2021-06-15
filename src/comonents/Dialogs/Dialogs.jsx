@@ -20,12 +20,14 @@ function Dialogs(props) {
 
 	return (
 		<div className="Dialogs-container">
-			<div className='users'>
-				{dialogElements}
-			</div>
-			<div className='messages-users'>
-				<div>{messagesElements}</div>
-				<AddMessageFormRedux onSubmit={AddNewMessage} />
+			<div className="Dialogs">
+				<div className='users'>
+					{dialogElements}
+				</div>
+				<div className='messages-users'>
+					<div>{messagesElements}</div>
+					<AddMessageFormRedux onSubmit={AddNewMessage} />
+				</div>
 			</div>
 		</div>
 	)

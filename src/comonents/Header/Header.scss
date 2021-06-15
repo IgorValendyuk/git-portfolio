@@ -1,10 +1,17 @@
 .header {
+	height: 50px;
 	display: flex;
-	background-color: lightcoral;
-	margin-top: 10px;
-	border-radius: 10px;
 	justify-content: space-between;
+	align-items: center;
+	width: 70%;
+	margin: auto;
+	.logo a {
+		color: rgb(255, 255, 255);
+	}
 	.login_block {
-		color: black;
+		a {
+			color: rgb(255, 255, 255);
+		}
+		color: rgb(255, 255, 255);
 	}
 }

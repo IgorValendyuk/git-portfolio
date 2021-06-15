@@ -1,6 +1,5 @@
 import React from 'react';
 import { reduxForm } from 'redux-form';
-
 import AddNewPostForm from './AddNewPostForm';
 import './MyPosts.scss';
 import Post from './Post/Post'

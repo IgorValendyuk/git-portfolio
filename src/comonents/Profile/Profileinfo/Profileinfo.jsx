@@ -48,7 +48,6 @@ function Profileinfo(props) {
 
 const ProfileData = ({ profile, isOwner, goToEditMode }) => {
 	return <>
-		{isOwner && <button onClick={goToEditMode}>edit</button>}
 		<div>
 			<b>Full name:</b> {profile.fullName}
 		</div>
@@ -68,6 +67,7 @@ const ProfileData = ({ profile, isOwner, goToEditMode }) => {
 				return <Contact key={key} contactTitle={key} contactValue={profile.contacts[key]} />
 			})}
 		</div>
+		{isOwner && <button onClick={goToEditMode}>edit</button>}
 	</>
 }
 

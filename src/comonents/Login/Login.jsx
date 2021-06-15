@@ -1,4 +1,5 @@
 import React from 'react';
+import './Login.scss';
 import { connect } from 'react-redux';
 import { Field, reduxForm } from 'redux-form';
 import { maxLength, required } from '../../utils/validadors';
@@ -6,6 +7,7 @@ import { Input } from '../common/FormsControls/FormsControls';
 import { login } from '../../redux/auth-reducer';
 import { Redirect } from 'react-router';
 import '../common/FormsControls/FormsControls.scss';
+
 
 const maxLength30 = maxLength(30);
 
@@ -23,11 +25,11 @@ const LoginForm = (props) => {
 			</div>
 			<div>
 				<Field component={Input} name={'rememberMe'} type='checkbox' /> Remember me
-				</div>
+			</div>
 			<div>
 				<button>Login</button>
 			</div>
-			{ props.error &&
+			{props.error &&
 				<div className='ErrorEnter'>
 					{props.error}
 				</div>

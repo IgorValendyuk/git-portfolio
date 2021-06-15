@@ -1,32 +1,23 @@
 .navbar {
-	.friends_conteiner {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		.name {
-			img {
-				width: 30px;
-			}
-		}
-	}
-	background-color: lightseagreen;
-	min-width: 170px;
-	width: 15%;
-	margin-right: 10px;
-	border-radius: 10px;
+	min-width: 125px;
+	width: 20%;
 	ul {
 		list-style-type: none;
 
 		a {
-			&.active {
-				color: blue;
-			}
 			text-decoration: none;
+			display: block;
+			font-size: 18px;
+			color: rgba(9, 22, 42, 0.8);
+			&.active {
+				color: rgb(0, 0, 0);
+				font-weight: 500;
+			}
 			&:hover {
-				color: rgb(243, 164, 164);
+				background-color: #999ea398;
 			}
 			&:active {
-				color: rgb(230, 137, 30);
+				color: rgba(9, 22, 42, 0.8);
 			}
 		}
 	}
