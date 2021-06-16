@@ -5,6 +5,7 @@
 	background-color: #ffffff;
 	min-height: 100vh;
 	.Content_container {
+		padding: 50px;
 		display: flex;
 		margin: 0 auto;
 		width: 70%;
@@ -12,5 +13,6 @@
 	.Header_container {
 		width: 100%;
 		background-color: rgba(9, 22, 42, 0.8);
+		position: fixed;
 	}
 }

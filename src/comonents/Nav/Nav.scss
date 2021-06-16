@@ -1,6 +1,9 @@
 .navbar {
 	min-width: 125px;
 	width: 20%;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+	margin: 15px 17px 0 0;
+
 	ul {
 		list-style-type: none;
 
@@ -12,9 +15,10 @@
 			&.active {
 				color: rgb(0, 0, 0);
 				font-weight: 500;
+				background-color: #999ea398;
 			}
 			&:hover {
-				background-color: #999ea398;
+				background-color: #999ea349;
 			}
 			&:active {
 				color: rgba(9, 22, 42, 0.8);
