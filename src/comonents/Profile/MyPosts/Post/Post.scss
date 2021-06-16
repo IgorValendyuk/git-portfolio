@@ -1,6 +1,16 @@
 .Post {
+	.PostContainer {
+		display: flex;
+	}
+	margin: 25px 0;
+	border: 1px solid rgba(9, 22, 42, 0.8);
+	border-radius: 10px;
 	img {
+		margin: 10px;
 		width: 50px;
 		border-radius: 50px;
+	}
+	.like {
+		float: right;
 	}
 }

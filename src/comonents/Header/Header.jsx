@@ -10,7 +10,7 @@ function Header(props) {
 					<NavLink to={'/profile'}>My social network</NavLink>
 				</div>
 				<div className='login_block'>
-					{props.isAuth ? <div>{props.login} - <button onClick={props.logout} >Log out</button> </div>
+					{props.isAuth ? <div className='Logout'>{props.login} - <button onClick={props.logout} >Log out</button> </div>
 						: <NavLink to={'/login'}>Login</NavLink>}
 				</div>
 			</div>

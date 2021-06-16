@@ -16,7 +16,7 @@ class MyPosts extends React.Component {
 		}
 		return (
 			<div className="MyPosts">
-				<h3>MyPosts</h3>
+				<h4>My Posts</h4>
 				<AddNewPostRedux onSubmit={onAddPost} />
 				<div>
 					{postsElements}

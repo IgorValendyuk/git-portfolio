@@ -1,5 +1,45 @@
 .MyPosts {
+	h4 {
+		padding: 10px 0 0 0;
+	}
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
-	margin-top: 15px;
-	padding: 7px;
+	padding: 0 15px 15px 15px;
+}
+
+.AddPost {
+	width: 100px;
+	background-color: rgba(9, 22, 42, 0.8);
+	color: rgb(255, 255, 255);
+	border-radius: 20px;
+	box-shadow: 0 3px 0px rgba(9, 22, 42, 0.8);
+	position: relative;
+	transition-duration: 0.5s;
+	top: 0;
+	&:hover {
+		cursor: pointer;
+		top: 2px;
+		box-shadow: 0 0px 0px rgba(9, 22, 42, 0.8);
+	}
+}
+
+textarea {
+	overflow: auto;
+	resize: none;
+	width: 300px;
+	height: 30px;
+
+	/* = Добавим фон, рамку, отступ*/
+	background: #f6f6f6;
+	border: 1px solid #cecece;
+	border-radius: 8px;
+	padding: 8px 0 8px 10px;
+}
+
+input {
+	width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: #f6f6f6;
+	border-radius: 8px;
 }

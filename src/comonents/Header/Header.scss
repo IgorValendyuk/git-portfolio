@@ -9,6 +9,19 @@
 		color: rgb(255, 255, 255);
 	}
 	.login_block {
+		button {
+			border-radius: 10px;
+			position: relative;
+			top: 0;
+			transition-property: all;
+			transition-duration: 0.5s;
+			transition-delay: 0s;
+			transition-timing-function: ease;
+			&:hover {
+				cursor: pointer;
+				padding: 0px 20px;
+			}
+		}
 		a {
 			color: rgb(255, 255, 255);
 		}

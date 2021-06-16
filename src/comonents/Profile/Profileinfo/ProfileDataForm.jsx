@@ -1,10 +1,14 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
 import { Input, Textarea } from '../../common/FormsControls/FormsControls';
+import './Profileinfo.scss';
 
 const ProfileDataForm = ({ handleSubmit, profile }) => {
 	return <form onSubmit={handleSubmit}>
-		<button>save</button>
+		<div className='save'>
+			<button >Save</button>
+		</div>
+
 		<div>
 			<b>Full name:</b> <Field placeholder='Full name' name={'fullName'} component={Input}
 				validate={[]} />

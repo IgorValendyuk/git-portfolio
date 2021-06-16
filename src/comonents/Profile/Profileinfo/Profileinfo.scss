@@ -7,3 +7,37 @@
 		margin-right: 20px;
 	}
 }
+
+.edit button {
+	width: 100px;
+	background-color: rgba(9, 22, 42, 0.8);
+	color: rgb(255, 255, 255);
+	border-radius: 20px;
+	float: right;
+	box-shadow: 0 3px 0px rgba(9, 22, 42, 0.8);
+	position: relative;
+	transition-duration: 0.5s;
+	top: 0;
+	&:hover {
+		cursor: pointer;
+		top: 2px;
+		box-shadow: 0 0px 0px rgba(9, 22, 42, 0.8);
+	}
+}
+
+.save button {
+	width: 100px;
+	background-color: rgba(9, 22, 42, 0.8);
+	color: rgb(255, 255, 255);
+	border-radius: 20px;
+	margin: 0 0 15px 0;
+	box-shadow: 0 3px 0px rgba(9, 22, 42, 0.8);
+	position: relative;
+	transition-duration: 0.5s;
+	top: 0;
+	&:hover {
+		cursor: pointer;
+		top: 2px;
+		box-shadow: 0 0px 0px rgba(9, 22, 42, 0.8);
+	}
+}

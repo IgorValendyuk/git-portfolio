@@ -67,7 +67,10 @@ const ProfileData = ({ profile, isOwner, goToEditMode }) => {
 				return <Contact key={key} contactTitle={key} contactValue={profile.contacts[key]} />
 			})}
 		</div>
-		{isOwner && <button onClick={goToEditMode}>edit</button>}
+		<div className='edit'>
+			{isOwner && <button onClick={goToEditMode}>Edit</button>}
+		</div>
+
 	</>
 }
 

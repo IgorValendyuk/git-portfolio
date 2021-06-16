@@ -8,13 +8,16 @@ const SAVE_PHOTO_SUCCESS = 'SAVE_PHOTO_SUCCESS';
 
 let initialState = {
 	postData: [
-		{ id: 1, message: 'Hi, how are you7', likesCount: 12 },
-		{ id: 2, message: 'Hi, it is my post', likesCount: 11 },
-		{ id: 3, message: 'Hi, it is my post', likesCount: 11 },
-		{ id: 4, message: 'Hi, it is my post', likesCount: 11 },
-		{ id: 5, message: 'Hi, it is my post', likesCount: 11 },
+		{
+			id: 1, message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry', likesCount: 12
+		},
+		{ id: 2, message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.', likesCount: 12 },
+		{ id: 3, message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s', likesCount: 13 },
+		{ id: 4, message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s', likesCount: 15 },
+		{ id: 5, message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s', likesCount: 16 },
 		{ id: 6, message: 'Hi, it is my post', likesCount: 11 },
-		{ id: 7, message: 'Hi, it is my post', likesCount: 11 },
+		{ id: 7, message: 'Hi, it is my post', likesCount: 18 },
+
 	],
 
 	profile: null,
