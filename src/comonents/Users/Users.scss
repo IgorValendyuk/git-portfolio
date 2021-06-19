@@ -2,7 +2,82 @@
 	width: 70px;
 	border-radius: 50%;
 }
+a {
+	cursor: pointer;
+	&:hover {
+		text-decoration: underline;
+	}
+}
 
 .selectedPage {
 	font-weight: bold;
+}
+
+.Users_Container {
+	width: 100%;
+	margin: auto;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+	margin-top: 15px;
+	padding: 7px;
+	width: 80%;
+	.Paginator {
+		text-align: center;
+		padding: 5px 5px 20px 5px;
+		.nextBack {
+			margin: 10px;
+			width: 50px;
+			background-color: rgba(9, 22, 42, 0.8);
+			color: rgb(255, 255, 255);
+			border-radius: 20px;
+			box-shadow: 0 3px 0px rgba(9, 22, 42, 0.8);
+			position: relative;
+			transition-duration: 0.5s;
+			top: 0;
+			&:hover {
+				cursor: pointer;
+				top: 2px;
+				box-shadow: 0 0px 0px rgba(9, 22, 42, 0.8);
+			}
+		}
+	}
+}
+
+.usersInfo {
+	display: flex;
+	.infoContainer {
+		width: 100%;
+		display: flex;
+		text-align: center;
+		align-items: center;
+		border: 1px solid rgba(9, 22, 42, 0.8);
+		padding: 15px;
+		margin: 10px;
+		border-radius: 10px;
+		justify-content: space-between;
+		.Name a {
+			color: rgba(9, 22, 42, 0.8);
+			font-weight: 800;
+			cursor: pointer;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+		button {
+			width: 100px;
+			background-color: rgba(9, 22, 42, 0.8);
+			color: rgb(255, 255, 255);
+			border-radius: 20px;
+			float: right;
+			box-shadow: 0 3px 0px rgba(9, 22, 42, 0.8);
+			position: relative;
+			transition-duration: 0.5s;
+			top: 0;
+			&:hover {
+				cursor: pointer;
+				top: 2px;
+				box-shadow: 0 0px 0px rgba(9, 22, 42, 0.8);
+			}
+		}
+	}
 }

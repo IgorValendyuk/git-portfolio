@@ -25,7 +25,7 @@ function Dialogs(props) {
 					{dialogElements}
 				</div>
 				<div className='messages-users'>
-					<div>{messagesElements}</div>
+					<div className='messages'>{messagesElements}</div>
 					<AddMessageFormRedux onSubmit={AddNewMessage} />
 				</div>
 			</div>

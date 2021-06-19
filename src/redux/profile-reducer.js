@@ -35,7 +35,7 @@ const profileReducer = (state = initialState, action) => {
 			};
 			let stateCopy = { ...state }
 			stateCopy.postData = [...state.postData];
-			stateCopy.postData.push(newPost);
+			stateCopy.postData.unshift(newPost);
 			stateCopy.newPostText = '';
 			return stateCopy;
 		}
